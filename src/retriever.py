@@ -86,32 +86,3 @@ class HybridRetriever:
             })
 
         return results
-
-
-# =========================
-# TESTING
-# =========================
-if __name__ == "__main__":
-    print("\n" + "=" * 60)
-    print("TESTING HYBRID RETRIEVER")
-    print("=" * 60)
-
-    dataset = ConversationDataset()
-    retriever = HybridRetriever(dataset)
-
-    test_query = (
-        "customer repeatedly contacted support but issue was not resolved "
-        "and asked for a supervisor"
-    )
-
-    print(f"\nQuery: {test_query}")
-    results = retriever.search(test_query, top_k=6)
-
-    print("\nTop Results:")
-    for i, res in enumerate(results, 1):
-        conv = dataset.get_conversation(res["transcript_id"])
-        print(f"\n{i}. Call ID: {res['transcript_id']}")
-        print(f"   Score: {res['score']:.4f}")
-        print(f"   Domain: {conv['domain']}")
-        print(f"   Intent: {conv['intent']}")
-        print(f"   Reason: {conv['reason_for_call'][:120]}...")
