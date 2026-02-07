@@ -192,3 +192,9 @@ for large‑scale conversational analysis.
 - Deterministic and interpretable outputs
 - The detailed Technical Report for this project is attached as Escalation_report.pdf.
 - The evaluation_results.csv file is used by evaluators to assess system performance and compute the final evaluation metrics.
+
+## Team Innovatrix.
+N Udit Narayan Choudhury - nuditnarayanchoudhury@gmail.com
+Subham Kumar Mohanty - subhamkumarmohanty48@gmail.com
+Swapnil Deo - deoswapnil35@gmail.com
+Mohammed Suhel -mohammedsuhel@gmail.com
