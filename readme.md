@@ -195,6 +195,9 @@ for large‑scale conversational analysis.
 
 ## Team Innovatrix.
 N Udit Narayan Choudhury - nuditnarayanchoudhury@gmail.com
+
 Subham Kumar Mohanty - subhamkumarmohanty48@gmail.com
+
 Swapnil Deo - deoswapnil35@gmail.com
+
 Mohammed Suhel -mohammedsuhel@gmail.com
